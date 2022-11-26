@@ -12,14 +12,14 @@ public class RPG_Game {
         Boss boss = new Boss(1000, 50, "Tanos");
         Warrior warrior = new Warrior(270, 10, "Kratos");
         Medic doc = new Medic(250, 0, "Hadson", 15);
-        Magic magic = new Magic(260, 15, "Gendelf");
-        Berserk berserk = new Berserk(280, 20, "Ahiles");
+        Magic magic = new Magic(260, 15, "Kotl");
+        Berserk berserk = new Berserk(280, 20, "Gats");
         Medic assistant = new Medic(290, 5, "Strange", 5);
-        Thor thor=new Thor(270,22,"Oden");
+        Thor thor=new Thor(270,22,"Zlatovlaska");
         Golem golem=new Golem(400,3,"Golem");
-        Hacker hacker=new Hacker(270,14,"Snoyden");
-        Invoker alukard=new Invoker(290,33,"Alukar");
-        Hero[] heroes = {warrior, doc, magic, berserk, assistant,thor,golem,};
+        Hacker hacker=new Hacker(270,14,"Roauch");
+        Invoker invoker=new Invoker(290,33,"Invoker");
+        Hero[] heroes = {warrior, doc, magic, berserk, assistant,thor,golem, hacker};
         Hero[] heroes1={};
 
         printStatistics(heroes, boss);
