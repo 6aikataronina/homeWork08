@@ -12,7 +12,7 @@ public class Golem extends Hero {
     }
 
     public Golem(int health, int damage, String name) {
-        super(health, damage, name, SuperAbility.STONE_LIFE);
+        super(health, damage, name, SuperAbility.LIFE.EFF);
     }
 
     @Override
