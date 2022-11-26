@@ -4,7 +4,7 @@ import kg.geektech.game.general.RPG_Game;
 
 public class Thor extends Hero{
     public Thor(int health, int damage, String name) {
-        super(health, damage, name,SuperAbility.TUNDECLUP);
+        super(health, damage, name,SuperAbility.STORMBOLT);
     }
 
 
